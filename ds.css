@@ -134,3 +134,32 @@ a {
 
 
 /*Carousel*/
+
+.bg-carrosel {
+    width: 100% !important;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-inner>.carousel-item>img {
+    width: 700px;
+    height: 400px;
+}
+
+
+/* Rodapé */
+
+#main-footer {
+    background: #262f36;
+    color: #fff;
+    padding: 5rem 0;
+    font-size: 0.8rem;
+}
+
+#main-footer h6 {
+    color: #718FA9;
+}
+
+#main-footer a {
+    color: #6c6f73;
+}

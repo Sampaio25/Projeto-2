@@ -80,6 +80,10 @@ a {
     text-transform: capitalize
 }
 
+.header .nav-bar .menu-ul .menu-li a {
+    text-decoration: none;
+}
+
 .header .nav-bar .menu-ul .menu-li:first-child {
     border-bottom: 6px solid black
 }
@@ -114,7 +118,8 @@ a {
 }
 
 .header .nav-bar .menu-ul .sub-menu-ul .sub-menu-li a {
-    color: white
+    color: white;
+    text-decoration: none;
 }
 
 .header .nav-bar .menu-ul .menu-li:hover .sub-menu-ul {
@@ -130,6 +135,20 @@ a {
 .header .nav-bar .menu-ul .sub-menu-ul .sub-menu-li:hover a {
     color: black;
     font-weight: bold
+}
+
+
+/*Carousel*/
+
+.bg-carrosel {
+    width: 100% !important;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-inner>.carousel-item>img {
+    width: 700px;
+    height: 400px;
 }
 
 
@@ -174,7 +193,7 @@ a {
 #main-footer {
     background: #262f36;
     color: #fff;
-    padding: 6rem 0;
+    padding: 5rem 0;
     font-size: 0.8rem;
 }
 
@@ -184,4 +203,49 @@ a {
 
 #main-footer a {
     color: #6c6f73;
+}
+
+
+/* Serviços */
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i,
+.service-box h4 {
+    transition: .5s;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover>i,
+.service-box:hover>h4 {
+    color: #65DAF9;
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
 }
