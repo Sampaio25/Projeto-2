@@ -77,7 +77,8 @@ a {
     font-style: normal;
     font-weight: 700;
     letter-spacing: 2px;
-    text-transform: capitalize
+    text-transform: capitalize;
+    cursor: pointer;
 }
 
 .header .nav-bar .menu-ul .menu-li:first-child {
@@ -143,7 +144,7 @@ a {
 
 .carousel-inner>.carousel-item>img {
     width: 700px;
-    height: 400px;
+    height: 500px;
 }
 
 
