@@ -39,6 +39,12 @@ html{
     padding: 0.4rem 1.4rem;
     border-radius: 30px;
 }
+
+#conteudoNavbarSuportado > button a{
+    text-decoration: none;
+    color: #131313;
+}
+
 /*fim menu*/
 
 .mid{
